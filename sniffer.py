@@ -35,7 +35,8 @@ def main():
     try:
         # sniff() continuously intercepts packets. 
         # filter="ip" ensures we only process IPv4 packets at the driver level.
-        sniff(filter="ip", prn=process_packet, store=False)
+        # Adding count=20 limits the capture to 20 packets for demonstration purposes.
+        sniff(filter="ip", prn=process_packet, store=False, count=20)
     except KeyboardInterrupt:
         print("\n[*] Sniffing stopped. Logs safely stored.")
         sys.exit(0)
