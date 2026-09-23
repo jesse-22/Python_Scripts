@@ -1,6 +1,0 @@
-Source: 140.82.113.25 -> Destination: 10.0.0.139 | Protocol: 6
-Source: 10.0.0.139 -> Destination: 140.82.113.25 | Protocol: 6
-Source: 10.0.0.139 -> Destination: 140.82.113.25 | Protocol: 6
-Source: 140.82.113.25 -> Destination: 10.0.0.139 | Protocol: 6
-Source: 140.82.113.25 -> Destination: 10.0.0.139 | Protocol: 6
-Source: 10.0.0.139 -> Destination: 140.82.112.22 | Protocol: 6
